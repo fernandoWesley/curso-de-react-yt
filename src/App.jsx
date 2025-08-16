@@ -8,7 +8,7 @@ function App () {
 
   // Usando o local storage
   const [tasks, setTasks] = useState(
-    JSON.parse(localStorage.getItem("tasks") || [])
+    JSON.parse(localStorage.getItem("tasks")) || []
   );
 
   //Usando um array com objetos
